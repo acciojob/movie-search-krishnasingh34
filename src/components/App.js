@@ -18,7 +18,7 @@ const App = () => {
         }
       })
         .then(info => {
-          if(info.data.Response == true){
+          if(info.data.Response == "True"){
             setMovie(info.data.Search)
             setError(false)
           }
